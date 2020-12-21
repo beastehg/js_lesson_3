@@ -56,10 +56,14 @@
 // 		Object.assign(person, {
 // 			[user]: prompt("Ключ не найнед и был добавлен", "Введите значение")
 // 		});
+// 		break;
 
+// 	} else {
+// 		alert(person[user]);
+// 		break;
 // 	}
 // }
-// // console.log(Object.entries(person));
+// console.log(person);
 
 
 // // Задача № 6
@@ -91,9 +95,12 @@
 // let arr = [];
 // let summ = 0;
 // for (let i = 0; i < 3; i++) {
-// 	arr.push(arr[i] = prompt());
-// 	summ += Number(arr[i]);
+// 	arr.push(prompt());
+// 	if (!isNaN(arr[i])) {
+// 		summ += +arr[i];
+// 	}
 // }
+// console.log(arr);
 // alert(summ);
 
 
